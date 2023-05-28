@@ -73,7 +73,7 @@ export default {
 </script>
 <style scoped>
 img {
-  width: 100vw;
+  width: 100%;
   transition: all .2s linear; /* required for scale anim */
   position: relative; /* required for z-index */
 }
