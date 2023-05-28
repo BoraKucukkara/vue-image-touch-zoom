@@ -4,7 +4,7 @@
     <div class="feed-header">
       <img src="https://avatars.githubusercontent.com/u/89361281?v=4" alt="Bora Kucukkara"> John Doe
     </div>
-    
+
     <img-touch-zoom :img="image"/>
 
     <div class="feed-footer">
@@ -53,10 +53,11 @@ export default {
 
 <style>
 body {
-  margin:0;
+  margin:0 auto;
   padding:0;
   color: #666;
   box-sizing: border-box;
+  touch-action: pan-x pan-y;
 }
 #app {
   font-family: sans-serif;
@@ -71,7 +72,7 @@ header {
   font-weight: bold;
 }
 .feed {
-  width: calc(100vw);
+  width: 100%;
   margin-bottom:2rem
 }
 .feed-header {
