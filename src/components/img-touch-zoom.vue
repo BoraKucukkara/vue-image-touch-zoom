@@ -2,6 +2,7 @@
     <img :src="require('@/assets/images/' + img.src)"
          :alt="img.alt"
          ref="img"
+         loading="lazy"
          @touchstart="start"
          @touchmove="move"
          @touchend="reset"/>
